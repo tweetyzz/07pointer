@@ -5,8 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	int 
-	int 
+	int x=10;
+	int y=20;
+	int *ptr;
+	
+	*ptr=&x;
+	printf("ptr value: %u\n",x);
+	
+	*ptr=&y;
+	printf("ptr value: %u\n",y);
 	
 	return 0;
 }
